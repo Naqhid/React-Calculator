@@ -9,6 +9,9 @@ First milestone for React Calculator app for Microverse Project.
 - npm
 - Netlify (for deployment)
 
+# Live demo
+
+[Live Demo](https://determined-hamilton-c40fbc.netlify.app/)
 
 # How to run this project
 
