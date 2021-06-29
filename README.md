@@ -9,9 +9,6 @@ First milestone for React Calculator app for Microverse Project.
 - npm
 - Netlify (for deployment)
 
-# Live demo
-
-[Live link]()
 
 # How to run this project
 
