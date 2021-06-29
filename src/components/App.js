@@ -18,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-// using string for result prop in display

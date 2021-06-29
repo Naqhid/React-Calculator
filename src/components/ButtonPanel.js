@@ -26,5 +26,3 @@ function ButtonPanel() {
   );
 }
 export default ButtonPanel;
-
-// react fragment
