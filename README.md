@@ -11,12 +11,12 @@ First milestone for React Calculator app for Microverse Project.
 
 # Live demo
 
-[Live link](https://github.com/Naqhid/React-Calculator)
+[Live link]()
 
 # How to run this project
 
-- Download this project or install running the next command in the terminal: https://github.com/andresporras3423/calculator-react.git
-- Move to the folder calculator-react
+- Download this project or install running the next command in the terminal: https://github.com/Naqhid/React-Calculator.git
+- cd calculator-react
 - In the terminal, run: npm install
 - In the terminal, run: npm start
 
