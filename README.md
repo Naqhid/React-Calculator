@@ -2,12 +2,12 @@
 
 First milestone for React Calculator app for Microverse Project.
 
- Build with
+ # Build with
 
 - React
 - Webpack
 - npm
-- Netlify (for deployment)
+- Heroku (for deployment)
 
 # Live demo
 
