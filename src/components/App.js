@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 import React from 'react';
 import { calculate } from '../logic/calculate';
 import '../App.css';
