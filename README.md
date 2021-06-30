@@ -1,6 +1,6 @@
 # React-Calculator
 
-Second milestone for React Calculator app for Microverse Project.
+Fourth milestone for React Calculator app for Microverse Project.
 
  Build with
 
