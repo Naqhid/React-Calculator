@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function Button(props) {
   const { name, updateDisplay } = props;
 
-  const callUpdateDisplay = e => {
+  const callUpdateDisplay = (e) => {
     updateDisplay(e.target.textContent);
   };
   return (

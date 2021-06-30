@@ -13,10 +13,10 @@ function ButtonPanel(props) {
   return (
     <div>
       {
-          groups.map(group => (
+          groups.map((group) => (
             <div className="calculator-group" key={nanoid()}>
               {
-                  group.map(btn => (
+                  group.map((btn) => (
                     <Button name={btn} updateDisplay={updateDisplay} key={nanoid()} />
                   ))
               }

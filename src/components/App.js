@@ -8,7 +8,7 @@ function App() {
   const [total, setTotal] = useState('0');
   const [operation, setOperation] = useState('');
   const [next, setNext] = useState('');
-  const updateDisplay = buttonValue => {
+  const updateDisplay = (buttonValue) => {
     const nValues = calculate({ total, operation, next }, buttonValue);
     setTotal(nValues.total);
     setOperation(nValues.operation);
