@@ -11,7 +11,7 @@ Second milestone for React Calculator app for Microverse Project.
 
 # Live demo
 
-[Live Demo](https://determined-hamilton-c40fbc.netlify.app/)
+[Live link](https://mystifying-shockley-510a38.netlify.app/)
 
 # How to run this project
 
