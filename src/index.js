@@ -5,7 +5,7 @@ import App from './components/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App total={null} next={null} operation={null} />
   </React.StrictMode>,
   document.getElementById('root'),
 );

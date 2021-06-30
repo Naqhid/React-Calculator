@@ -1,7 +1,12 @@
 import { operate } from './operate';
 
 export function calculate(calcData, buttonName) {
-  let { total, operation, next } = calcData;
+  let { total, next, operation } = calcData;
+  if (total === null) {
+    total = '0';
+    operation = '';
+    next = '';
+  }
   if (total === 'Error') total = '0';
   if (buttonName === '=' && next !== '') {
     total = operate(total, next, operation);
@@ -39,7 +44,7 @@ export function calculate(calcData, buttonName) {
   } else if (buttonName.match(/[-x+÷]/) && operation === '') {
     operation = buttonName;
   }
-  return { total, operation, next };
+  return { total, next, operation };
 }
 
 export default calculate;

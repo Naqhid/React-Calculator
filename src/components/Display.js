@@ -1,10 +1,18 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display(props) {
-  const { total, operation, next } = props;
-  return (
-    <input className="display" type="text" value={total + operation + next} id="display" disabled />
-  );
+class Display extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    const { total, next, operation } = this.props;
+    return (
+      <input className="display" type="text" value={total + operation + next} id="display" disabled />
+    );
+  }
 }
 
 Display.propTypes = {
@@ -20,3 +28,5 @@ Display.defaultProps = {
 };
 
 export default Display;
+
+// update methods names
