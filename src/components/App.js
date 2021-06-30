@@ -19,7 +19,7 @@ function App() {
     <>
       <div className="App">
         <div className="content">
-          <h1 className="title-app">Welcome To My Calculator</h1>
+          <h1 className="title-app">Naqhid Calculator</h1>
           <Display total={total} operation={operation} next={next} />
           <ButtonPanel updateDisplay={updateDisplay} />
         </div>
