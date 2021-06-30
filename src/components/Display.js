@@ -28,5 +28,3 @@ Display.defaultProps = {
 };
 
 export default Display;
-
-// update methods names

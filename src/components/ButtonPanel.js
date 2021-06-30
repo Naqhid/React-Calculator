@@ -41,7 +41,3 @@ ButtonPanel.defaultProps = {
 };
 
 export default ButtonPanel;
-
-
-// update methods names
-
