@@ -1,18 +1,22 @@
 import PropTypes from 'prop-types';
 
 function Display(props) {
-  const { result } = props;
+  const { total, operation, next } = props;
   return (
-    <input className="display" type="text" value={result} id="display" disabled />
+    <input className="display" type="text" value={total + operation + next} id="display" disabled />
   );
 }
 
 Display.propTypes = {
-  result: PropTypes.string,
+  total: PropTypes.string,
+  operation: PropTypes.string,
+  next: PropTypes.string,
 };
 
 Display.defaultProps = {
-  result: '0',
+  total: '0',
+  operation: '',
+  next: '',
 };
 
 export default Display;
