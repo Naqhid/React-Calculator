@@ -1,4 +1,3 @@
-/* eslint-disable arrow-parens */
 import React from 'react';
 import { calculate } from '../logic/calculate';
 import '../App.css';
@@ -26,7 +25,7 @@ class App extends React.Component {
       <>
         <div className="App">
           <div className="content">
-            <h1 className="title-app">Naqhid Calculator</h1>
+            <h1 className="title-app">Welcome To My Calculator</h1>
             <Display total={total} operation={operation} next={next} />
             <ButtonPanel clickHandler={this.handleClick} />
           </div>

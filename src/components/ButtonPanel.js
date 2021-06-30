@@ -1,4 +1,3 @@
-/* eslint-disable arrow-parens */
 import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import Button from './Button';
