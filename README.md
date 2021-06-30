@@ -11,7 +11,7 @@ Fifth milestone for React Calculator app for Microverse Project.
 
 # Live demo
 
-[Live link](https://mystifying-shockley-510a38.netlify.app/)
+[Live link](https://gallant-rosalind-184ecc.netlify.app/)
 
 # How to run this project
 
